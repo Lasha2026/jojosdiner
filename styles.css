@@ -125,6 +125,7 @@ body{
 
     .items-container{
         display: flex;
+        flex-direction:column;
         width: fit-content;
         height: fit-content;
         justify-content: space-evenly;
