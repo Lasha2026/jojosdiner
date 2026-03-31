@@ -242,12 +242,13 @@ const menuContainer = document.querySelector(".menu");
             backButton.textContent = "Back to Menu";
             if(window.matchMedia("(max-width: 600px)").matches){
                 menuContainer.style.flexDirection = "column";
+                menuContainer.style.overflowX = "hidden";
                 const detailsClose = document.createElement("button");
                 detailsClose.className = "details-close";
                 // detailsModal.appendChild(detailsClose);
                 backButton.textContent = "🔙";
                 backButton.style.backgroundColor = "white";
-                backButton.style.fontSize = "x-large";
+                backButton.style.fontSize = "small";
                 backButton.style.border = "2px solid black";
                 backButton.style.marginTop = "-10px";
                 cartButton.style.marginTop = "600px";
