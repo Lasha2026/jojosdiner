@@ -233,7 +233,6 @@ const menuContainer = document.querySelector(".menu");
 
     // Listening for clicks on each of the categories to display the items within that category.
     menuCategory.addEventListener("click", (event) => {
-        document.style.overflow = "hidden";
         menuContainer.style.display = "none";
         const categoryItems = categoryData[item.title];
         // Creating the back button so that the user can exit the category and return to the main menu.
